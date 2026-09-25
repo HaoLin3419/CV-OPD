@@ -1,0 +1,21 @@
+# Local data and model assets (never commit to the code repository)
+data/
+models/
+checkpoints/
+rollouts/
+outputs/
+logs/
+wandb/
+tensorboard_log/
+eval/model_answer/
+eval/judge/
+eval/judge_internal/
+eval/results*/
+eval/*.json
+__pycache__/
+*.py[cod]
+*.so
+
+# Local secrets and environment files
+.env
+.env.*
